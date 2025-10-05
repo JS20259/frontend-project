@@ -1,0 +1,76 @@
+main {
+  background-color: #052825;
+  min-height: 100vh;
+  padding-top: 80px; /* важно: отступ равен высоте header */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title-text {
+  font-size: 64px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  width: 600px;
+  line-height: 72px;
+  letter-spacing: -1.16px;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.mid-text {
+  font-size: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  width: 465px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  top: 470px;
+  position: absolute;
+}
+
+.small-text {
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  width: 400px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.images {
+  position: sticky;
+  margin-left: auto;
+  object-fit: cover;
+}
+
+.images--first {
+  margin-left: auto;
+  width: 460px;
+  height: 549px;
+}
+
+.images--second {
+  margin-left: auto;
+  width: 320px;
+  height: 420px;
+}
+
+.images--logoes {
+  margin-top: auto;
+}
+
+.container {
+  background-color: #80d5ce;
+  width: 1200px;
+  height: 549px;
+  margin-top: 50px;
+  color: white;
+  padding: 0;
+}
+
+.section {
+  background-color: #052825;
+  padding: 1200px 20px;
+  margin-bottom: 20px;
+}
