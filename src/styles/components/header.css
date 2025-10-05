@@ -47,12 +47,15 @@
   position: absolute;
   left: 1050px;
   top: 26px;
-  width: 172px;
-  height: 32px;
   font-family: 'Segoe UI';
   font-size: 14px;
   font-weight: 400;
   background-color: blue;
-  text-align: center;
   line-height: 19px;
+}
+
+.arrow {
+  position: absolute;
+  left: 130px;
+  top: 12px;
 }
