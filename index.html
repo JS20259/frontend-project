@@ -39,23 +39,33 @@
     </header>
 
     <main>
-      <div class="container">
-        <p class="title-text">This Headline Is The Gist Of The Your Whole Website</p>
-        <p class="mid-text">
-          And the description of hero section is follow up message after the punch of a great headline. So, make it
-          short, simple, descriptive and to the point.
-        </p>
-        <img class="images images--first" src="pictures/pic1.jpg" width="460" />
-        <button class="button button--second">
-          Book A Meeting
-          <img class="arrow" src="/icons/long_right.svg" alt="" />
-        </button>
-        <!--потом придумаю как сделать. Пж не делай через ручное передвижение по пикселям -->
+      <div class="block--first">
+        <div class="container">
+          <div class="text-content">
+            <p class="title-text">This Headline Is The Gist Of The Your Whole Website</p>
+            <p class="mid-text">
+              And the description of hero section is follow up message after the punch of a great headline. So, make it
+              short, simple, descriptive and to the point.
+            </p>
+            <div style="display: flex; align-items: center; gap: 15px">
+              <button class="button button--second">
+                Book A Meeting
+                <img class="arrow" src="/icons/long_right.svg" alt="" />
+              </button>
+              <span class="small-text">Here you can put secondary action statement & CTA</span>
+            </div>
+            <div class="logobar">
+              <ul class="logobar--logo-list1">
+                <li><img class="images images--logoes" src="Logos/logitech.svg" alt="Logitech" /></li>
+                <li><img class="images images--logoes" src="Logos/google.svg" alt="Google" /></li>
+                <li><img class="images images--logoes" src="Logos/amazon.svg" alt="Amazon" /></li>
+              </ul>
+            </div>
+          </div>
+          <img class="images images--first" src="pictures/pic1.jpg" width="460" />
+        </div>
       </div>
-
-      <div class="section"></div>
     </main>
-
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

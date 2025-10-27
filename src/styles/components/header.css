@@ -5,7 +5,6 @@
   height: 80px;
   display: flex;
   align-items: center;
-  padding: 0 20px;
   z-index: 1000;
 }
 
@@ -77,9 +76,6 @@
   width: 198px;
   height: 56px;
   font-size: 16px;
-  margin-right: auto;
-  position: absolute;
-  top: 600px;
 }
 
 .arrow {

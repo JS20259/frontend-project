@@ -1,9 +1,26 @@
 main {
   background-color: #052825;
   min-height: 100vh;
-  padding-top: 80px; /* важно: отступ равен высоте header */
-  margin: 0;
   box-sizing: border-box;
+}
+
+.block {
+  display: flex;
+}
+
+.block--first {
+  background-color: #052825;
+  width: 1440px;
+  height: 840px;
+  padding-top: 145px;
+}
+
+.container {
+  display: flex;
+  background-color: #052825;
+  width: 1200px;
+  height: 549px;
+  color: white;
 }
 
 .title-text {
@@ -22,19 +39,19 @@ main {
   font-size: 20px;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
-  width: 465px;
+  width: 450px;
   line-height: 30px;
   letter-spacing: -0.36px;
-  top: 470px;
-  position: absolute;
+  padding-top: 30px;
+  margin-bottom: 42px;
 }
 
 .small-text {
   font-size: 16px;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
-  width: 400px;
-  line-height: 26px;
+  width: 230px;
+  height: 52px;
   letter-spacing: -0.29px;
 }
 
@@ -60,17 +77,20 @@ main {
   margin-top: auto;
 }
 
-.container {
-  background-color: #80d5ce;
-  width: 1200px;
-  height: 549px;
-  margin-top: 50px;
-  color: white;
-  padding: 0;
+.logobar {
+  display: flex;
+  left: 404px;
+  top: 31px;
+  gap: 20px;
 }
 
-.section {
-  background-color: #052825;
-  padding: 1200px 20px;
-  margin-bottom: 20px;
+.logobar--logo-list1 {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-top: 84px;
+  margin: 0;
+}
+
+.logobar--logo-list2 {
 }
