@@ -21,6 +21,8 @@ main {
   width: 1200px;
   height: 549px;
   color: white;
+  margin: 0;
+  padding-left: 120px;
 }
 
 .title-text {
@@ -31,8 +33,6 @@ main {
   width: 600px;
   line-height: 72px;
   letter-spacing: -1.16px;
-  margin-top: auto;
-  margin-right: auto;
 }
 
 .mid-text {
@@ -93,4 +93,85 @@ main {
 }
 
 .logobar--logo-list2 {
+}
+
+.thirdBlock {
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  padding-left: 127px;
+}
+
+.thirdBlock-Title {
+  font-size: 42px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+}
+
+.thirdBlock-UsualText {
+  font-size: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+}
+
+.thirdBlock-TextForInt {
+  font-size: 72px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -1.3px;
+}
+
+.thirdBlock-TextForSymbols {
+  font-size: 52px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  font-weight: 600;
+  line-height: 62px;
+  letter-spacing: -0.94px;
+}
+
+.thirdBlock-TextBorder {
+  width: 203px;
+  height: 78px;
+  overflow-wrap: break-word;
+  display: inline-block;
+  max-width: 200px;
+  vertical-align: top;
+}
+
+.thirdBlock-MainContentElement {
+  width: 540px;
+  height: 378px;
+}
+
+.thirdBlock-MainContentElement__divlikeSpan {
+  display: flex;
+  gap: 40px;
+  padding-top: 46px;
+}
+
+.thirdBlock-Smalltext {
+  font-size: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.thirdBlock-Video {
+  display: flex;
+  width: 530px;
+  height: 350px;
+  margin-left: 130px;
+  margin-top: -30px;
 }
