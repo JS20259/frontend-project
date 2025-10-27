@@ -1,0 +1,53 @@
+.block-third {
+  width: 1440px;
+  height: 900px;
+  align-items: center;
+  padding-left: 138px;
+  padding-top: 111px;
+  display: block;
+  gap: 20px;
+}
+
+.thirdblock-text {
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  width: 500px;
+}
+
+.thirdblock-text--title {
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 62px;
+  letter-spacing: -0.94px;
+  align-self: start;
+  margin-bottom: 68px;
+}
+
+.thirdblock-text--minititle {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  padding-bottom: 7px;
+}
+
+.thirdblock-text--small {
+  font-size: 16px;
+  width: 255px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.thirdblock-content-container {
+  width: 255px;
+  height: 213px;
+}
+
+.thirdblock-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 255px);
+  gap: 30px;
+}
+
+.thirdblock-icon {
+  padding-bottom: 16px;
+}

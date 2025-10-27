@@ -1,0 +1,71 @@
+.block-fourth {
+  display: flex;
+  width: 1440px;
+  height: 930px;
+  align-items: center;
+  padding: 115px 165px;
+}
+
+.foursblock-container {
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: #e7ebfc;
+  width: 1110px;
+  height: 700px;
+}
+
+.foursblock-textcontainer {
+  width: 588px;
+  height: 465px;
+  padding-top: 119px;
+  padding-left: 95px;
+}
+
+.foursblock-text {
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+}
+
+.foursblock-text--title {
+  padding-bottom: 32px;
+  font-weight: bold;
+}
+
+.foursblock-text--mid {
+  width: 630px;
+}
+
+.foursblock-image-place {
+  margin-left: auto;
+  padding-top: 116px;
+}
+
+.foursblock-image {
+  position: sticky;
+  object-fit: cover;
+  width: 380px;
+  height: 420px;
+}
+
+.foursblock-logo {
+  padding-top: 32px;
+  padding-bottom: 0;
+}
+
+.foursblock-linkcontainer {
+  width: 225px;
+  display: flex;
+  color: #2e4fd7;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.29px;
+}
+
+.foursblock-icon {
+  padding-top: 30px;
+}
