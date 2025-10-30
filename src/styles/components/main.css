@@ -1,5 +1,10 @@
-main {
+body {
   background-color: #052825;
+  margin: 0;
+  padding: 0;
   min-height: 100vh;
-  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
 }
