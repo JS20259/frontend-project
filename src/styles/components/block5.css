@@ -1,23 +1,23 @@
-.block-fifth {
+.fifthblock {
   display: block;
   width: 1440px;
   height: 500px;
   padding: 64px 165px 58px;
 }
 
-.fifthblock-text {
+.fifthblock__text {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
 }
 
-.fifthblock-text--title {
+.fifthblock__text--title {
   width: 720px;
   font-size: 42px;
   padding-bottom: 64px;
   font-weight: bold;
 }
 
-.fifthblock-text--minititle {
+.fifthblock__text--minititle {
   font-weight: bold;
   font-size: 24px;
   width: 255px;
@@ -25,40 +25,40 @@
   letter-spacing: -0.43px;
 }
 
-.fifthblock-text--small {
+.fifthblock__text--small {
   font-size: 16px;
   width: 240px;
   line-height: 26px;
   letter-spacing: -0.29px;
 }
 
-.fifthblock-scheme-container {
+.fifthblock__scheme--container {
   display: flex;
   gap: 30px;
   width: 1110px;
   height: 210px;
 }
 
-.fifthblock-scheme-container--part {
+.fifthblock__scheme--container--part {
   padding-bottom: 16px;
   padding-top: 16px;
   width: 255px;
   height: 210px;
 }
 
-.fifthblock-icons-container {
+.fifthblock__icons--container {
   display: flex;
   width: 253px;
   height: 72px;
 }
 
-.fifthblock-text-container {
+.fifthblock__text--container {
   margin-top: 16px;
   width: 255px;
   height: 90px;
 }
 
-.fifthblock-curves {
+.fifthblock__curves {
   align-self: center;
   margin-left: auto;
   width: 164px;

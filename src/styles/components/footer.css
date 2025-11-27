@@ -4,13 +4,13 @@
   padding: 70px 135px 44px;
 }
 
-.footer-content-container {
+.footer__content--container {
   width: 100%;
   max-width: 1169px;
   height: 196px;
 }
 
-.footer-main-block {
+.footer__main--block {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -18,12 +18,12 @@
   margin-bottom: 30px;
 }
 
-.footer-text-block {
+.footer__text--block {
   width: 423px;
   flex-shrink: 0;
 }
 
-.footer-links-container {
+.footer__links--container {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -32,39 +32,39 @@
   padding-top: 50px;
 }
 
-.footer-links-row {
+.footer__links--row {
   display: flex;
   gap: 30px;
   flex-wrap: nowrap;
   justify-content: flex-end;
 }
 
-.footer-link {
+.footer__link {
   font-size: 14px;
   margin: 0;
   cursor: pointer;
   white-space: nowrap;
 }
 
-.footer-logo-text {
+.footer__logo--text {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.footer-title {
+.footer__title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.footer-description {
+.footer__description {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
-.footer-button {
+.footer__button {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -75,12 +75,12 @@
   outline: none;
 }
 
-.footer-bottom {
+.footer__bottom {
   display: flex;
   padding-top: 20px;
 }
 
-.footer-bottom-text {
+.footer__bottom--text {
   font-size: 14px;
   width: 387px;
   line-height: 22px;

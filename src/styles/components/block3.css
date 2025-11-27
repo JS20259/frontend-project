@@ -1,4 +1,4 @@
-.block-third {
+.thirdblock {
   width: 1440px;
   height: 900px;
   align-items: center;
@@ -8,13 +8,13 @@
   gap: 20px;
 }
 
-.thirdblock-text {
+.thirdblock__text {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
   width: 500px;
 }
 
-.thirdblock-text--title {
+.thirdblock__text--title {
   font-size: 52px;
   font-weight: bold;
   line-height: 62px;
@@ -23,31 +23,31 @@
   margin-bottom: 68px;
 }
 
-.thirdblock-text--minititle {
+.thirdblock__text--minititle {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: -0.36px;
   padding-bottom: 7px;
 }
 
-.thirdblock-text--small {
+.thirdblock__text--small {
   font-size: 16px;
   width: 255px;
   line-height: 26px;
   letter-spacing: -0.29px;
 }
 
-.thirdblock-content-container {
+.thirdblock__content--container {
   width: 255px;
   height: 213px;
 }
 
-.thirdblock-grid-container {
+.thirdblock__grid--container {
   display: grid;
   grid-template-columns: repeat(3, 255px);
   gap: 30px;
 }
 
-.thirdblock-icon {
+.thirdblock__icon {
   padding-bottom: 16px;
 }

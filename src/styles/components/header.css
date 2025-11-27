@@ -9,14 +9,14 @@
   padding: 21px 129px 21px 111px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   width: 1200px;
   height: 39px;
   align-items: center;
 }
 
-.logo-text {
+.header__logo--text {
   font-size: 24px;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
@@ -26,17 +26,17 @@
   padding: 0;
 }
 
-.image {
+.header__image {
   padding-right: 9px;
   position: relative;
 }
 
-.navigation {
+.header__navigation {
   display: flex;
   margin-left: 53px;
 }
 
-.nav-list {
+.header__nav--list {
   display: flex;
   list-style: none;
   font-family: 'Segoe UI', sans-serif;
@@ -47,7 +47,7 @@
   gap: 31px;
 }
 
-.button {
+.header__button {
   display: flex;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
@@ -67,7 +67,7 @@
   height: 32px;
 }
 
-.arrow {
+.header__arrow {
   margin-left: auto;
   padding-right: 10px;
   position: sticky;

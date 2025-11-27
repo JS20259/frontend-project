@@ -1,4 +1,4 @@
-.block-sixth {
+.sixthblock {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,12 +8,12 @@
   padding-top: 103px;
 }
 
-.sixthblock-text {
+.sixthblock__text {
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
 }
 
-.sixthblock-text--title {
+.sixthblock__text--title {
   text-align: center;
   font-size: 52px;
   font-weight: bold;
@@ -23,7 +23,7 @@
   padding-bottom: 24px;
 }
 
-.sixthblock-text--small {
+.sixthblock__text--small {
   text-align: center;
   font-size: 18px;
   width: 770px;
@@ -32,18 +32,18 @@
   padding-bottom: 76px;
 }
 
-.sixthblock-logoes {
+.sixthblock__logoes {
   margin-top: auto;
 }
 
-.sixthblock-logobar {
+.sixthblock__logobar {
   display: flex;
   padding-top: 50px;
   gap: 30px;
   margin: 0;
 }
 
-.sixthblock-button {
+.sixthblock__button {
   display: flex;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
