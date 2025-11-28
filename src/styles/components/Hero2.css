@@ -82,3 +82,8 @@
   width: 198px;
   height: 56px;
 }
+
+.firstblock__textnearbutton {
+  display: flex;
+  gap: 15px;
+}
